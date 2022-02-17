@@ -1,0 +1,45 @@
+{
+  "docs": {
+    "Wstęp": ["PremiumHotel/Wstęp"],
+    "Przed rozpoczęciem pracy": ["PremiumHotel/Przed-rozpoczęciem-pracy/Komunikaty-otwarte"],
+    "Recepcja": [
+      "PremiumHotel/Recepcja/Grafik",
+      "PremiumHotel/Recepcja/Grafik-standardów",
+      "PremiumHotel/Recepcja/Grafik-pakietów",
+      "PremiumHotel/Recepcja/Rzut",
+      "PremiumHotel/Recepcja/Rezerwacje",
+      "PremiumHotel/Recepcja/Rezerwacje-wg-pokoi",
+      "PremiumHotel/Recepcja/Rezerwacje-wg-gości",
+      "PremiumHotel/Recepcja/Anulowane-rezerwacje",
+      "PremiumHotel/Recepcja/Grupy",
+      "PremiumHotel/Recepcja/Kontyngenty",
+      "PremiumHotel/Recepcja/Meldunki",
+      "PremiumHotel/Recepcja/Klienci",
+      "PremiumHotel/Recepcja/Standardy-pokoi",
+      "PremiumHotel/Recepcja/Pokoje",
+      "PremiumHotel/Recepcja/Telefony",
+      "PremiumHotel/Recepcja/CRM",
+      "PremiumHotel/Recepcja/Zgłoszenia",
+      "PremiumHotel/Recepcja/Dodatkowe-posiłki",
+      "PremiumHotel/Recepcja/Zasoby-recepcji",
+      "PremiumHotel/Recepcja/Raporty-recepcyjne",
+      "PremiumHotel/Recepcja/Rzeczy-znalezione",
+      "PremiumHotel/Recepcja/Układ-sal"
+    ]
+  },
+  "PremiumHotel.pl": {
+    "PremiumHotel.pl": [
+      "PremiumHotel.pl/Wstęp"
+    ]
+  },
+  "PH-POS": {
+   "PH-POS": [
+     "PH-POS/Wstęp"
+   ]
+  },
+  "PH-Mobile": {
+    "PH-Mobile": [
+      "PH-Mobile/Wstęp"
+    ]
+  }
+}
