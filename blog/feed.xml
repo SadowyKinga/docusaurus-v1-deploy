@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Instrukcja obsługi Blog</title>
+        <link>https://instrukcja.premiumhotel.pl/blog</link>
+        <description>The best place to stay up-to-date with the latest Instrukcja obsługi news and events.</description>
+        <lastBuildDate>Mon, 07 Feb 2022 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Instrukcja obsługi Blog</title>
+            <url>https://instrukcja.premiumhotel.pl/img/logo/logo.svg</url>
+            <link>https://instrukcja.premiumhotel.pl/blog</link>
+        </image>
+        <copyright>Copyright © 2022 Betasi. Wszelkie prawa zastrzeżone</copyright>
+        <item>
+            <title><![CDATA[Nowa odsłona dokumentacji]]></title>
+            <link>https://instrukcja.premiumhotel.pl/blog/2022/02/07/Instrukcja.html</link>
+            <guid>https://instrukcja.premiumhotel.pl/blog/2022/02/07/Instrukcja.html</guid>
+            <pubDate>Mon, 07 Feb 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/img/blog/2022-02-07-Instrukcja/instrukcja.png" alt="Instrukcja"></p> <p>Prezentujemy nową odsłonę dokumentacji <strong>Betasi PremiumHotel</strong>, która stanowić będzie źródło wiedzy korzystania z systemu. Oprócz podstawowej wiedzy na temat samego systemu zamieszczamy ponadto dokumentację dotyczącą produktów POS, aplikacji mobilnej or...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nowości w wersji 2022.01]]></title>
+            <link>https://instrukcja.premiumhotel.pl/blog/2022/02/02/Nowości-2022.01.html</link>
+            <guid>https://instrukcja.premiumhotel.pl/blog/2022/02/02/Nowości-2022.01.html</guid>
+            <pubDate>Wed, 02 Feb 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/img/blog/2022-02-02-Nowości-2022.01/wersja-2020-01.png" alt="Nowa wersja"></p>
+<p>Przedstawiamy wprowadzone funkcjonalności w wersji PremiumHotel 2021.01.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nowa wersja POS]]></title>
+            <link>https://instrukcja.premiumhotel.pl/blog/2021/10/05/Nowa-wersja-POS.html</link>
+            <guid>https://instrukcja.premiumhotel.pl/blog/2021/10/05/Nowa-wersja-POS.html</guid>
+            <pubDate>Tue, 05 Oct 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/img/PH-POS/pos-logowanie.png" alt="POS"></p>
+<p>Przedstawiamy obszerną aktualizację naszego systemu POS. Wprowadzone zmiany mają na celu ujednolicenie interfejsu oraz poprawienie intuicyjności obsługi systemu.</p>
+<p>Najważniejsze zmiany prezentujemy w krótkim filmie, do którego link znajduje się w poście.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Edycja kolumn w tabelach]]></title>
+            <link>https://instrukcja.premiumhotel.pl/blog/2021/08/10/Edycja-kolumn-w-tabelach.html</link>
+            <guid>https://instrukcja.premiumhotel.pl/blog/2021/08/10/Edycja-kolumn-w-tabelach.html</guid>
+            <pubDate>Tue, 10 Aug 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/img/blog/2021-08-10-Edycja-kolumn-w-tabelach/PH-Widok.png" alt="Widok"></p>
+<p>W wersji 2021.08 wprowadziliśmy nowe funkcje dotyczące edycji kolumn. Od teraz można dodawać nowe, kalkulowane kolumny, dowolnie zmieniać ich nazwy oraz stosować formatowanie warunkowe. Możliwości prezentujemy w krótkim filmie oraz opisujemy szczegółowo w poście.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Edytor wiadomości e-mail]]></title>
+            <link>https://instrukcja.premiumhotel.pl/blog/2021/04/22/Graficzny-edytor.html</link>
+            <guid>https://instrukcja.premiumhotel.pl/blog/2021/04/22/Graficzny-edytor.html</guid>
+            <pubDate>Thu, 22 Apr 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/img/blog/2021-04-22-Graficzny-edytor/edytor-widok.png" alt="Edytor"></p>
+<p>Wychodząc naprzeciw oczekiwaniom użytkowników naszego oprogramowania, w najnowszej wersji dodaliśmy <strong>graficzny edytor HTML</strong>, który daje możliwość tworzenia rozbudowanych wiadomości e-mail wysyłanych do gości. Edytor działa na zasadzie drag &amp; drop (przeciągnij i upuść) i pozwala na szybkie projektowanie maili w prosty sposób bez posiadania umiejętności kodowania.</p>
+]]></description>
+        </item>
+    </channel>
+</rss>

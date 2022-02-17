@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Nowa wersja POS · Instrukcja obsługi</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Przedstawiamy obszerną aktualizację naszego systemu POS. Wprowadzone zmiany mają na celu ujednolicenie interfejsu oraz poprawienie intuicyjności obsługi systemu."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Nowa wersja POS · Instrukcja obsługi"/><meta property="og:type" content="website"/><meta property="og:url" content="https://instrukcja.premiumhotel.pl/blog/2021/10/05/Nowa-wersja-POS"/><meta property="og:description" content="Przedstawiamy obszerną aktualizację naszego systemu POS. Wprowadzone zmiany mają na celu ujednolicenie interfejsu oraz poprawienie intuicyjności obsługi systemu."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/logo/favicon/favicon-ph.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://instrukcja.premiumhotel.pl/blog/atom.xml" title="Instrukcja obsługi Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://instrukcja.premiumhotel.pl/blog/feed.xml" title="Instrukcja obsługi Blog RSS Feed"/><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo/logo.svg" alt="Instrukcja obsługi"/><h2 class="headerTitleWithLogo">Instrukcja obsługi</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/blog/" target="_self">Co nowego</a></li><li class=""><a href="/PremiumHotel/Wstęp" target="_self">PremiumHotel</a></li><li class=""><a href="/PremiumHotel.pl/Wstęp" target="_self">PremiumHotel.pl</a></li><li class=""><a href="/PH-POS/Wstęp" target="_self">PH POS</a></li><li class=""><a href="/PH-Mobile/Wstęp" target="_self">PH-Mobile</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Wyszukaj... " title="Wyszukaj... "/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Najnowsze</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Najnowsze</h3><ul class=""><li class="navListItem"><a class="navItem" href="/blog/2022/02/07/Instrukcja">Nowa odsłona dokumentacji</a></li><li class="navListItem"><a class="navItem" href="/blog/2022/02/02/Nowości-2022.01">Nowości w wersji 2022.01</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2021/10/05/Nowa-wersja-POS">Nowa wersja POS</a></li><li class="navListItem"><a class="navItem" href="/blog/2021/08/10/Edycja-kolumn-w-tabelach">Edycja kolumn w tabelach</a></li><li class="navListItem"><a class="navItem" href="/blog/2021/04/22/Graficzny-edytor">Edytor wiadomości e-mail</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2021/10/05/Nowa-wersja-POS">Nowa wersja POS</a></h1><p class="post-meta">October 5, 2021</p><div class="authorBlock"></div></header><div><span><p><img src="/img/PH-POS/pos-logowanie.png" alt="POS"></p>
+<p>Przedstawiamy obszerną aktualizację naszego systemu POS. Wprowadzone zmiany mają na celu ujednolicenie interfejsu oraz poprawienie intuicyjności obsługi systemu.</p>
+<p>Najważniejsze zmiany prezentujemy w krótkim filmie, do którego link znajduje się w poście.</p>
+<!--truncate-->
+<p>import YouTube from 'react-youtube';</p>
+<p><YouTube videoId="h3wFlklW9jI" /></p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-POS.png" alt="Widok POS"></p>
+<h2><a class="anchor" aria-hidden="true" id="zmiany-w-interfejsie"></a><a href="#zmiany-w-interfejsie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zmiany w interfejsie</h2>
+<p>Lewy panel został podzielony na trzy zakładki: <strong>Rachunek</strong>, <strong>Rezerwacje stolika</strong> oraz <strong>Więcej…</strong> (pozostałe przyciski).</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Zakladki.png" alt="Zakładki"></p>
+<p>Usunęliśmy panel dolny z dodatkowymi przyciskami. Podstawowe, ważne w codziennej pracy z rachunkiem przyciski (<code>Drukuj</code>, <code>Rozlicz</code>, <code>Karta</code>, <code>Gotówka</code>, <code>Stoliki</code> i <code>Sprzedaż</code>), zostały umieszczone pod rachunkiem. Pozostałe przyciski zostały przeniesione pod przycisk <code>Więcej...</code></p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Przyciski.png" alt="Przyciski"></p>
+<p>Dodaliśmy przyciski do przesuwania pozycji na rachunku góra/dół, przyciski do zwiększania/zmniejszania ilości oraz przycisk <code>Zmień</code> otwierający edycję pozycji.</p>
+<p>Ponadto:</p>
+<ul>
+<li>przycisk <code>Wliczaj</code> został przeniesiony do okna edycji pozycji,</li>
+<li>przycisk <code>Wliczaj</code> wszystkie do okna edycji stolika,</li>
+<li>dodatkowy opis przeniesiony do okna edycji pozycji,</li>
+<li>scalanie/przenoszenie rachunku przeniesione do edycji stolika,</li>
+<li>rozdzielanie pozycji przeniesione do edycji pozycji,</li>
+<li>przekazywanie stolika przeniesione do edycji stolika.</li>
+</ul>
+<p>Zmieniliśmy możliwość podziału rachunku na <strong>Rozliczenia</strong>. Zamiast grupowania wg numeru rozliczenia w jednej tabelce, dodaliśmy przyciski nad rachunkiem do konkretnych rozliczeń wraz z możliwością otworzenia nowego rachunku/rozliczenia. Na kafelku wyświetla się kwota danego rachunku.</p>
+<p>Usunęliśmy opcję zmiany stolika w lewym górnym rogu oraz przycisk <code>Nowy stolik</code>.</p>
+<p>POS zaprojektowany jest dla rozdzielczości 1024x768px oraz dostosowany do ekranów dotykowych.</p>
+<h2><a class="anchor" aria-hidden="true" id="okno-edycji-pozycji"></a><a href="#okno-edycji-pozycji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Okno edycji pozycji</h2>
+<p>Możemy je aktywować klikając przycisk <code>Zmień</code>, prawym przyciskiem myszy na pozycji oraz podwójny klik na pozycji. W samym oknie edycji mamy możliwość zmiany ilości, ceny, rabatu itp. Dodatkowo na kolejnych zakładkach jest możliwość dodania opisu, rozdzielenia pozycji i zmiany punktu rozchodu (opcja w ustawieniach). W oknie edycji pozycji pojawiła się również możliwość podglądu receptury.</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Okno-edycji.png" alt="Okno edycji"></p>
+<h2><a class="anchor" aria-hidden="true" id="lista-pozycji"></a><a href="#lista-pozycji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lista pozycji</h2>
+<p>Dodaliśmy możliwość zmiany kolejności pozycji poprzez przeciąganie wierszy na liście (metoda przeciągnij i upuść - drag&amp;drop). Dodatkowo możliwe jest również przenoszenie pozycji między rachunkami/rozliczeniami. Uaktualniliśmy kolorystykę poszczególnych pozycji:</p>
+<ul>
+<li><strong>zielony</strong> oznacza nową pozycję (wcześniej jasno niebieski),</li>
+<li><strong>niebieski</strong> oznacza aktywną pozycję,</li>
+<li><strong>złoty</strong> oznacza niewliczaną pozycję,</li>
+<li><strong>fioletowy</strong> oznacza pozycję All Inclusive.</li>
+</ul>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Kolory.png" alt="Kolory"></p>
+<h2><a class="anchor" aria-hidden="true" id="wyszukiwanie"></a><a href="#wyszukiwanie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wyszukiwanie</h2>
+<p>Podzieliliśmy górne pole wyszukiwarki wg nazwy/symbolu na dwa pola: wyszukiwanie towaru po <strong>symbolu/kodzie kreskowym</strong> oraz osobno wyszukiwanie po nazwie, gdzie dodano możliwość wyszukiwania po fragmencie tekstu wraz z zawężaniem listy wyszukiwania.</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Wyszukiwarka.png" alt="Wyszukiwanie"></p>
+<h2><a class="anchor" aria-hidden="true" id="edycja-stolików"></a><a href="#edycja-stolików" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Edycja stolików</h2>
+<p>Edycja stolików możliwa jest po kliknięciu prawym przyciskiem myszy na widoku stolików wraz z wszystkimi innymi opcjami. Dodatkowo umożliwiono dodanie uprawnień do akcji POS → Edytuj układ stolików, aby dowolny użytkownik mógł edytować układ.</p>
+<p><strong>Okno edycji stolika</strong> - aktywowane po kliknięciu w przycisk <code>Zmień</code> nad rachunkiem, gdzie mamy kwotę, numer stolika i nazwisko kelnera. Oprócz edycji opisu stolika i ilości osób, na kolejnych zakładkach, mamy możliwość przekazania stolika, przeniesienia/scalenia rachunków z innym stolikiem, oraz nadania rabatu na cały rachunek (o tym niżej). Dodatkowo zostały tam przeniesione przyciski: wliczaj wszystkie, odśwież, rabat z karty i room service (aktywowane w ustawieniach).</p>
+<p>Również w oknie edycji stolika pojawiła się zakładka <strong>Rabat na cały rachunek</strong> - wpisany rabat zastosuje się do wszystkich pozycji.</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Okno-edycji-stolika.png" alt="Edycja stolika"></p>
+<h2><a class="anchor" aria-hidden="true" id="panel-rozliczeń"></a><a href="#panel-rozliczeń" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Panel rozliczeń</h2>
+<p>Przebudowaliśmy wygląd panelu rozliczeń, możliwe opcje zostały zmienione na kafelki. Scalono wybór meldunku i kuracji do jednego pola.</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Rozliczenia.png" alt="Rozliczenia"></p>
+<h2><a class="anchor" aria-hidden="true" id="klawiatura-ekranowa"></a><a href="#klawiatura-ekranowa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Klawiatura ekranowa</h2>
+<p>Usunęliśmy klawiaturę ekranową w prawym dolnym rogu. Dla ekranów dotykowych, należy wykorzystać ustawienia systemu Windows, aby klawiatura ekranowa była pokazywana w momencie aktywowania pola edycji.</p>
+<p>Klawiaturę ekranową aktywujemy poprzez wejście w Menu Start -&gt; Ustawienia -&gt; Urządzenia -&gt; Pisanie -&gt; <strong>Pokaż klawiaturę dotykową, gdy tryb tabletu nie jest używany i nie podłączono klawiatury</strong>.</p>
+<p><img src="/img/blog/2021-10-05-Nowa-wersja-POS/PH-Klawiatura.gif" alt="Klawiatura"></p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/blog/">Najnowsze</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#zmiany-w-interfejsie">Zmiany w interfejsie</a></li><li><a href="#okno-edycji-pozycji">Okno edycji pozycji</a></li><li><a href="#lista-pozycji">Lista pozycji</a></li><li><a href="#wyszukiwanie">Wyszukiwanie</a></li><li><a href="#edycja-stolików">Edycja stolików</a></li><li><a href="#panel-rozliczeń">Panel rozliczeń</a></li><li><a href="#klawiatura-ekranowa">Klawiatura ekranowa</a></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Kontakt</div><ul class="footer__items"><li class="footer__item"><span>Betasi Sp. z o.o.</span></li><li class="footer__item">Topolowa 13, 33-300 Nowy Sącz</li></ul></div><div class="col footer__col"><div class="footer__title">Wsparcie techniczne</div><ul class="footer__items"><li class="footer__item"><a href="mailto:serwis@betasi.pl" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email: serwis@betasi.pl</a></li><li class="footer__item"><a href="tel:+182005000" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tel: +48 18 200 5009</a></li></ul></div></div><div class="fotter_bottom_social_2mvo"><a href="https://www.facebook.com/betasisoftware"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"></path></svg></a><a href="https://www.linkedin.com/company/betasi/"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a><a href="https://betasi.pl/"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"></path></svg></a></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><div class="margin-bottom--sm"><a href="https://betasi.pl/" target="_blank" rel="noopener noreferrer"><img class="footer-logo" src="/img/logo/Betasi_logo.svg" alt="Instrukcja obsługi"/></a></div></div></div><section class="copyright" style="color:black">Copyright © 2022 Betasi. Wszelkie prawa zastrzeżone</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                appId: 'O9MBLEB2ST',
+                apiKey: '9b34017aacca87c3081b7e0fbb5eaeb5',
+                indexName: 'dev_PremiumHotel',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
